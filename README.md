@@ -27,11 +27,8 @@ KVM acceleration can be used
 #### Workaround for the device not supporting virtualization
 - If your device doesn't support hardware virtualization, then you can use arm based avd. To install `avd` ssh into
 `avni-app` container run `docker exec -it avni-app bash`.
-
 - Once inside the container run `sdkmanager --install "system-images;android-25;google_apis;armeabi-v7a"`.
-
 - Next you need to create avd so run `echo "no" | avdmanager create avd --force --name test -k "system-images;android-25;google_apis;armeabi-v7a"`.
-
 - After this execute the `emulator.sh` script located under `/tmp` folder.
 
 #### Data persistence

@@ -7,7 +7,7 @@ you can download VNC viewer from [here](https://www.realvnc.com/en/connect/downl
 #### Steps to setup Avni
 - Clone this repository and `cd avni-setup`. 
 - Once you are inside `avni-setup`, run `docker-compose up` to start `avni-server`, `avni-webapp` and `avni-client`. 
-- You can see the console logs and when it says app installed then you can start vnc server and connect to `localhost:5901` to access the android emulator. 
+- You can see the console logs and when it says app installed then you can start vnc server and connect to `localhost:5901` to access the android emulator. Password is password.
 - You can access webapp by accessing `localhost:8021` on your browser. 
 - Create an organisation and one use to test it out. 
 - Next go to the emulator, `avi` is pre-installed and you can login using the user you just created. 

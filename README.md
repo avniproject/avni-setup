@@ -1,7 +1,7 @@
 ## Set up avni environment using Docker Compose
 
 Docker compose requires docker engine to be installed in your machine. So install docker engine from [here](https://docs.docker.com/engine/install/#server), 
-then you need to install docker compose from [here](https://docs.docker.com/compose/install/). We'll also need VNC to view the emulator,
+then you need to install docker compose from [here](https://docs.docker.com/compose/install/). You'll also need VNC to view the emulator,
 you can download VNC server from [here](https://www.realvnc.com/en/connect/download/vnc/).
 
 #### Steps to setup Avni
@@ -33,3 +33,7 @@ Once inside the container run `sdkmanager --install "system-images;android-25;go
 Next you need to create avd so run `echo "no" | avdmanager create avd --force --name test -k "system-images;android-25;google_apis;armeabi-v7a"`.
 
 After this execute the `emulator.sh` script located under `/tmp` folder.
+
+#### Data persistence
+- All the db data is saved as long as you terminate Avni environment using `docker-compose down`. 
+- If for some reason you want to delete the volume also then you can run `docker-compose down -v` to terminate the environment.

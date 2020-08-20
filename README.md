@@ -16,7 +16,7 @@ you can download VNC viewer from [here](https://www.realvnc.com/en/connect/downl
 
 #### Enable hardware virtualization
 Before running the emulator please make sure that hardware virtualization is enabled you can follow the steps given
-[here](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). Also `kvm` should be installed in the host machine,
+[here](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). Also [kvm](https://www.cyberciti.biz/faq/installing-kvm-on-ubuntu-16-04-lts-server/) should be installed in the host machine,
 you can verify it by executing `kvm-ok` command and it should return 
 
 ````

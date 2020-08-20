@@ -2,7 +2,7 @@
 
 Docker compose requires docker engine to be installed in your machine. So install docker engine from [here](https://docs.docker.com/engine/install/#server), 
 then you need to install docker compose from [here](https://docs.docker.com/compose/install/). You'll also need VNC to view the emulator,
-you can download VNC server from [here](https://www.realvnc.com/en/connect/download/vnc/).
+you can download VNC viewer from [here](https://www.realvnc.com/en/connect/download/viewer).
 
 #### Steps to setup Avni
 - Clone this repository and `cd avni-setup`. 

@@ -10,7 +10,7 @@ you can download VNC viewer from [here](https://www.realvnc.com/en/connect/downl
 - You can see the console logs and when it says app installed then you can start vnc server and connect to `localhost:5901` to access the android emulator. Password is password.
 - You can access webapp by accessing `localhost:8021` on your browser. 
 - Create an organisation and one use to test it out. 
-- Next go to the emulator, `avi` is pre-installed and you can login using the user you just created. 
+- Next go to the emulator, `avni` is pre-installed and you can login using the user you just created. 
 - For connecting to the db you can use `jdbc:postgresql://localhost:5434/openchs` url.
 
 
